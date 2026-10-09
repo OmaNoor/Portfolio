@@ -1,0 +1,55 @@
+.personal-inf .d-flex
+{
+    border-bottom: solid 1px rgb(244, 244, 244);
+}
+body.dark-mode div, body.dark-mode a, body.dark-mode nav, body.dark-mode section, body.dark-mode .nav-link, body.dark-mode p, body.dark-mode span, body.dark-mode
+{
+    background-color: #0f172a !important;
+    color: white !important;
+}
+
+footer h4, footer p
+{
+    color: #fff !important;
+}
+
+footer .container .row .col-md-4 span
+{
+    color: #fff !important;
+    font-size: 20px;
+    border: solid 1px rgb(240, 238, 238);
+    border-radius: 20px;
+    padding: 7px;
+}
+footer .container .row .col-md-4 span:not(.text-primary):not(.no-change) {
+    font-size: 14px;
+}
+footer .container .row .col-md-4 a
+{
+    text-decoration: none;
+    color: #fff !important;
+}
+#Section1 .container .row .career span
+{
+    background-color: rgba(225, 255, 255, 0.991);
+    padding: 4px;
+}
+
+.loading-screen {
+    background-color: #0f172a;
+    color: rgb(86, 86, 180);
+    font-size: 30px;
+    z-index: 9999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.loading-screen.hide {
+    opacity: 0;
+    visibility: hidden;
+}
