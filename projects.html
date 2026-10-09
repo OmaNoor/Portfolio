@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Project.css">
+</head>
+<body>
+    <div class="loading-screen position-fixed top-0 bottom-0 w-100" id="loading-screen">
+        <p class="font-monospace">loading_portfolio</p>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 " style="position: fixed;">
+            <div class="container">
+                <div class="row">
+                            <div class="col-md-6">
+                                <a class="navbar-brand ms-5 me-5" href="#">Omar <span class="text-primary">.dev</span></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                            <div class="col-md-6 collapse navbar-collapse nav2 ms-auto">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a href="./index.html" class="text-secondary ms-5 me-2 active nav-link">Home</a></li>
+                                    <li class="nav-item"><a href="./about.html" class="text-secondary me-2 nav-link">About</a></li>
+                                    <li class="nav-item"><a href="./projects.html" class="text-secondary me-2 nav-link">Projects</a></li>
+                                    <li class="nav-item"><a href="./certificates.html" class="text-secondary me-2 nav-link">Certificates</a></li>
+                                    <li class="nav-item"><a href="./contact.html" class="text-secondary me-5 nav-link">Contact</a></li>
+                                </ul>
+                                <button id="nav-btn" class="btn text-secondary me-0 btn-outline-secondary" style="border-radius: 20px;"><i class="fa-solid fa-moon"></i></button>
+                            </div>
+                </div>
+            </div>
+    </nav>
+<!-- Section 1 -->
+<section id="section1" class="pt-5 mb-5">
+    <div id="Section1" class="container">
+        <p class="text-primary pt-5">// PROJECTS</p>
+        <h1 class="fw-bolder">Things I've built</h1>
+        <p class="text-muted">A mix of web, Python, and JavaScript projects — from class<br>assignments to freelance work.</p>
+    </div>
+</section>
+<section id="section2" class="mt-5">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Web</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Python</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">JavaScript</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active d-flex justify-content-around" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Imgs/Screenshot 2026-09-18 154630.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">JS Practice Hub</h5>
+                        <p class="card-text">A simple hub to practice your JavaScript skills and develop it- in clean code methods</p>
+                        <span class="me-2 text-primary rounded">HTML</span>
+                        <span class="me-2 text-primary rounded">CSS</span>
+                        <span class="me-2 text-primary rounded">Bootstrap</span>
+                        <button class="btn btn-secondary bg-white text-secondary mt-3 d-inline-flex" id="GButton1"><i class="fa-brands fa-github me-2 mt-1"></i>Github</button>
+                        <button class="btn btn-primary mt-3 d-inline-flex" id="DButton1">Live Demo<i class="fa-solid fa-arrow-up-right-from-square ms-1 mt-1" style="color: blue;"></i></button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Imgs/Screenshot 2026-09-25 141301.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Quran Player</h5>
+                        <p class="card-text">A player that allows you to listen to different Quran Surahs -with different readers</p>
+                        <span class="me-2 text-primary rounded">Python</span>
+                        <span class="me-2 text-primary rounded">Libraries</span>
+                        <span class="me-2 text-primary rounded">Tkinter</span>
+                        <button class="btn btn-secondary bg-white text-secondary mt-3 d-inline-flex" id="GButton1"><i class="fa-brands fa-github me-2 mt-1"></i>Github</button>
+                        <button class="btn btn-primary mt-3 d-inline-flex" id="DButton1">Live Demo<i class="fa-solid fa-arrow-up-right-from-square ms-1 mt-1" style="color: blue;"></i></button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Imgs/Screenshot 2026-09-18 154630.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Free Fire Charger</h5>
+                        <p class="card-text">Provides you with different ways -to redeem FF codes or to send diamond to your account</p>
+                        <span class="me-2 text-primary rounded">HTML</span>
+                        <span class="me-2 text-primary rounded">CSS</span>
+                        <span class="me-2 text-primary rounded">Bootstrap</span>
+                        <button class="btn btn-secondary bg-white text-secondary mt-3 d-inline-flex" id="GButton1"><i class="fa-brands fa-github me-2 mt-1"></i>Github</button>
+                        <button class="btn btn-primary mt-3 d-inline-flex" id="DButton1">Live Demo<i class="fa-solid fa-arrow-up-right-from-square ms-1 mt-1" style="color: blue;"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Imgs/Screenshot 2026-09-18 154630.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Free Fire Charger</h5>
+                        <p class="card-text">Provides you with different ways -to redeem FF codes or to send diamond to your account</p>
+                        <span class="me-2 text-primary rounded">HTML</span>
+                        <span class="me-2 text-primary rounded">CSS</span>
+                        <span class="me-2 text-primary rounded">Bootstrap</span>
+                        <button class="btn btn-secondary bg-white text-secondary mt-3 d-inline-flex" id="GButton1"><i class="fa-brands fa-github me-2 mt-1"></i>Github</button>
+                        <button class="btn btn-primary mt-3 d-inline-flex" id="DButton1">Live Demo<i class="fa-solid fa-arrow-up-right-from-square ms-1 mt-1" style="color: blue;"></i></button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Imgs/Screenshot 2026-09-18 154630.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">JS Practice Hub</h5>
+                        <p class="card-text">A simple hub to practice your JavaScript skills and develop it- in clean code methods</p>
+                        <span class="me-2 text-primary rounded">HTML</span>
+                        <span class="me-2 text-primary rounded">CSS</span>
+                        <span class="me-2 text-primary rounded">Bootstrap</span>
+                        <button class="btn btn-secondary bg-white text-secondary mt-3 d-inline-flex" id="GButton1"><i class="fa-brands fa-github me-2 mt-1"></i>Github</button>
+                        <button class="btn btn-primary mt-3 d-inline-flex" id="DButton1">Live Demo<i class="fa-solid fa-arrow-up-right-from-square ms-1 mt-1" style="color: blue;"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-5">
+    <div class="container text-center">
+        <h3>Curious how these were built?</h3>
+        <p class="text-muted">Take a look at the skills behind these projects, or the<br>certificates that back them up.</p>
+        <a href="./certificates.html" class="btn btn-primary bg-white text-primary">View Certificates</a>
+    </div>
+</section>
+<!-- ----------- Footer ----------- -->
+<footer class="mt-5" style="background-color:#0f172a ;">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 mt-5">
+                <h4 style="display: inline-block;">Omar</h4><h4 style="display: inline-block;" class="text-primary">.dev</h4>
+                <p class="text-secondary mb-4">Computer Science student building clean,<br>practical software — one project at a time.</p>
+                <span class="me-2"><i class="fa-brands fa-github"></i></span>
+                <span class="me-2"><i class="fa-brands fa-linkedin-in"></i></span>
+                <span class="me-2"><i class="fa-brands fa-twitter"></i></span>
+                <span class="me-2"><i class="fa-solid fa-envelope"></i></span>   
+            </div>
+            <div class="col-md-4 mt-5">
+                <h4>Quick Links</h4>
+                <a href="./about.html" style="display: block;" class="mb-2">About Me</a>
+                <a href="./projects.html" style="display: block;" class="mb-2">Projects</a>
+                <a href="./certificates.html" style="display: block;" class="mb-2">Certificates</a>
+            </div>
+            <div class="col-md-4 mt-5">
+                <h4>Contact</h4>
+                <p class="text-secondary mb-2"><i class="fa-solid fa-envelope"></i>  omar.noor@example.com</p>
+                <p class="text-secondary mb-2"><i class="fa-solid fa-phone"></i>  +20 100 123 4567</p>
+                <p class="text-secondary"><i class="fa-solid fa-location-dot"></i> Suez, Egypt</p>
+            </div>
+        </div>
+        <hr class="text-secondary opacity-25 my-4">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="text-secondary m-0 pb-5" style="font-size: 14px;">&copy; 2026 Omar Noor. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="./JS/bootstrap.bundle.min.js"></script>
+<script src="./JS/Script.js"></script>
+</body>
+</html>
